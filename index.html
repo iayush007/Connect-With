@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's chat Realtime Chat App</title>
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/000/599/837/original/speech-bubble-chat-icon-logo-template-vector.jpg">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/realChat/js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img class="logo" src="\realChat\img\logo.jpg" alt="chat image">
+            <br>
+            <h1>Let's Chat</h1>
+        </nav>
+    </div>
+    
+    <div class="container"></div> 
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type your message">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

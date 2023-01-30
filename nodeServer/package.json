@@ -1,0 +1,15 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "Real time chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "ayush",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "socket.io": "^2.5.0"
+  }
+}
